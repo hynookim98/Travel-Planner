@@ -25,7 +25,7 @@ Trips.init(
             references: {
                 model: "traveller", // *model name
                 key: 'id',
-                // unique: false
+                unique: false
             }
         },
         location_id: {
